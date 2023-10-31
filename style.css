@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Anonymous Pro", sans-serif;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+h1, h2, h3, h4 {
+  color: #121723;
+}
+
+nav {
+  padding: 30px 0 15px 0 ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1160px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+.logo-img {
+  width: 212px;
+  height: 63.24px;
+}
+
+.contacts {
+  display: flex;
+  list-style: none;
+  column-gap: 24px;
+}
+.contact a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  width: 1160px;
+}
+
+.section-title{
+  font-size: 48px;
+  margin-top: 25px;
+  
+  font-weight: 700;
+}
+
+.three-sneakers-section {
+  display: flex;
+  column-gap: 30px;
+  align-items: flex-start;
+}
+
+.sneaker {
+  background: #fff;
+  border-radius: 12px;
+  width: 371px;
+}
+.container-text-section {
+  padding: 32px 24px;
+  box-sizing: border-box;
+}
+.container__title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.container__text {
+  font-size: 20px;
+  font-weight: 400;
+}
+.container__image {
+  border-radius: 12px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #121723;
+}
+footer nav {
+  border-bottom: solid rgba(230, 232, 236, 0.4) 2px;
+  width: 1160px;
+  justify-content: space-between;
+  height: 60px;
+}
+footer a, h4 {
+  color: #fff !important;
+}
+.footer-text {
+  color: #A1A6B4;
+  text-align: center;
+  margin: 24px 0;
+  font-weight: 700;
+  font-size: 16px;
+}
+footer a, ul {
+  margin: 0 !important;
+}
+.logo-img-footer {
+  width: 299.653px;
+  height: 22.32px;
+}
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1245px) {
+  nav {
+    padding: 20px 0 10px 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+  }
+  .logo-img {
+    width: 142px;
+    height: 43px;
+  }
+  .contacts {
+    column-gap: 14px;
+  }
+  .contact a {
+    font-size: 14px;
+  }
+  
+  main {
+    margin-bottom: 15px;
+  }
+  
+  .main-container {
+    row-gap: 14px;
+    width: 900px;
+  }
+  
+  .section-title{
+    font-size: 32px;
+    margin-top: 15px;
+  }
+  .three-sneakers-section {
+    column-gap: 25px;
+  }
+  
+  .sneaker {
+    width: 300px;
+  }
+  .container-text-section {
+    padding: 14px 16px;
+  }
+  .container__title {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+  .container__text {
+    font-size: 15px;
+  }
+  .container__image {
+    width: 251px;
+  }
+  footer nav {
+    width: 900px;
+    height: 30px;
+    border-width: 1px;
+  }
+  .footer-text {
+    margin: 14px 0;
+    font-size: 12px;
+  }
+  .logo-img-footer {
+    width: 199px;
+    height: 15px;
+  }
+}
