@@ -82,7 +82,6 @@ main {
 .sneaker {
   background: #fff;
   border-radius: 12px;
-  width: 371px;
 }
 .container-text-section {
   padding: 32px 24px;
@@ -135,13 +134,13 @@ footer a, ul {
 
 
 
-@media screen and (min-width: 900px) and (max-width: 1245px) {
+@media screen and (min-width: 750px) and (max-width: 1245px) {
   nav {
     padding: 20px 0 10px 0 ;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 900px;
+    width: 750px;
   }
   .logo-img {
     width: 142px;
@@ -160,7 +159,7 @@ footer a, ul {
   
   .main-container {
     row-gap: 14px;
-    width: 900px;
+    width: 750px;
   }
   
   .section-title{
@@ -172,7 +171,7 @@ footer a, ul {
   }
   
   .sneaker {
-    width: 300px;
+    width: 31.9%;
   }
   .container-text-section {
     padding: 14px 16px;
@@ -185,10 +184,10 @@ footer a, ul {
     font-size: 15px;
   }
   .container__image {
-    width: 251px;
+    width: 100%;
   }
   footer nav {
-    width: 900px;
+    width: 750px;
     height: 30px;
     border-width: 1px;
   }
@@ -202,70 +201,70 @@ footer a, ul {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) {
   nav {
-    padding: 10px 10px 7px 13px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-  .logo-img {
-    width: 120px;
-    height: 40px;
+    flex-direction: column;
+    gap: 24px;
+    margin: 24px 16px;
+    padding: 0;
   }
   .contacts {
-    column-gap: 12px;
+    gap: 24px;
+    font-size: 20px;
   }
-  .contact a {
-    font-size: 15px;
+  .logo {
+    width: 215px;
+    height: 64px;
   }
-  
+
+  main {
+    margin-bottom: 32px;
+  }
+
   .main-container {
-    row-gap: 10px;
-    width: 85%;
+    gap: 0;
+    width: 91.47%;
   }
-  
   .section-title{
-    font-size: 30px;
-    margin-top: 12px;
+    font-size: 32px;
+    margin: 32px 0;
   }
+
   .three-sneakers-section {
     flex-direction: column;
-    row-gap: 20px;
+    gap: 24px;
+    margin-bottom: 24px;
   }
-  
   .sneaker {
     width: 100%;
-    justify-self: center;
-    text-align: center;
-  }
-  .container-text-section {
-    padding-top: 10px !important;
-  }
-  .container__title {
-    font-size: 27px;
-    margin-bottom: 6px;
-  }
-  .container__text {
-    font-size: 17px;
+    align-items: center;
   }
   .container__image {
-    width: 270px;
-  }
-  footer {
-    padding: 0 20px;
-  }
-  footer nav {
     width: 100%;
-    height: 25px;
+  }
+  .container__title {
+    font-size: 26px;
+  }
+  .container__text {
+    font-size: 20px;
+  }
+
+  footer nav {
+    justify-content: center;
+    gap: 32px;
+    margin: 32px 16px 0 16px;
+    width: 91.47%;
+    height: 74px;
+    padding-bottom: 24px;
   }
   .footer-text {
-    margin: 14px 0;
-    font-size: 12px;
+    font-size: 16px;
   }
+
   .logo-img-footer {
-    width: 150px;
-    height: 13px;
+    width: 300px;
+    height: 22px;
   }
+
 }
