@@ -34,6 +34,7 @@ header {
   display: flex;
   justify-content: center;
   background: #fff;
+  border-bottom: #676B73 solid 1px;
 }
 .logo-img {
   width: 212px;
@@ -181,7 +182,7 @@ footer a, ul {
   }
   
   .sneaker {
-    width: 31.9%;
+    width: 100%;
   }
   .container-text-section {
     padding: 14px 16px;

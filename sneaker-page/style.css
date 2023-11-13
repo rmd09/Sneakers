@@ -35,6 +35,7 @@ header {
     display: flex;
     justify-content: center;
     background: #fff;
+    border-bottom: #676B73 solid 1px;
 }
 .logo-img {
     width: 212px;
@@ -120,8 +121,6 @@ main {
 }
 
 
-
-
 footer {
     display: flex;
     flex-direction: column;
@@ -205,6 +204,35 @@ footer a, footer ul {
     .logo {
         width: 215px;
         height: 64px;
+    }
+
+    
+    .sneaker {
+        width: 91.47%;
+        padding: 24px;
+        border-radius: 12px;
+    }
+    .sneaker-img {
+        height: 172px;
+    }
+    .text-section {
+        gap: 24px;
+    }
+    .text-section h1 {
+        font-size: 32px;
+    }
+    .text-section h2 {
+        font-size: 20px;
+    }
+    .description-section {
+        flex-direction: column;
+        width: 100%;
+    }
+    .story {
+        width: 100%;
+    }
+    .texnical-information {
+        width: 100%;
     }
 
     footer nav {
